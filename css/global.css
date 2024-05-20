@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+body {
+    font-family:'Roboto Condensed', Courier, monospace;
+    color: #141414;
+    background: #f4f9ff;
+}
+
+
+
+h1,
+h2,
+h3,
+p {
+    margin: 0px;
+}
+
+ul {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+
+.subtitulo {
+    font-size: 5rem;
+    text-transform: uppercase;
+}
+
+@media (max-width: 800px) {
+    .subtitulo {
+        font-size: 3.25rem;
+        text-transform: capitalize;
+        max-width: initial !important;
+        /* lembrar do !important */
+    }
+}

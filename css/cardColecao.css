@@ -1,0 +1,47 @@
+.cardColecao {
+  width: auto;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 10px 5px;
+}
+
+.tabela-imagens {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); 
+}
+
+.cardColecao img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 16px;
+  border: 1px solid #d89838;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  transition: .5s;
+  object-fit: cover;
+}
+
+.cardColecao:hover img {
+  border-radius: 42px;
+  transition: .5s;
+}
+
+.cardColecao>* {
+  grid-area: stack;
+}
+
+figcaption {
+  margin-top: 5px;
+  text-align: center;
+}
+
+.cardColecao figcaption {
+  opacity: 0.3;
+}
+
+.cardColecao:hover figcaption {
+  opacity: 1;
+  cursor: pointer;
+  transition: 0.8s;
+
+}
