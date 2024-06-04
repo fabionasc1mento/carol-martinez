@@ -4,8 +4,13 @@
     box-sizing: border-box;
   }
 
+  @font-face {
+    font-family: "Ratio Modern";
+    src: url("Ratio\ Modern.ttf ");
+}
+
 body {
-    font-family:'Roboto Condensed', Courier, monospace;
+    font-family: 'Ratio Modern','Roboto Condensed', Courier, monospace;
     color: #141414;
     background: #f4f9ff;
 }
@@ -36,6 +41,7 @@ footer {
 .subtitulo {
     font-size: 5rem;
     text-transform: uppercase;
+    transition: 0.3s;
 }
 
 @media (max-width: 800px) {

@@ -38,11 +38,11 @@
     width: 0%;
     background: #f4f9ff;
     margin-top: 0px;
+    transition: 0.3s;
 }
 
 .header-menu a:hover:after {
     width: 100%;
-    transition-duration: 0.5s;
 }
 
 .marca {

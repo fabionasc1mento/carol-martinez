@@ -10,10 +10,37 @@
 }
 
 
-.colecoes .subtitulo {
+.colecoes .subtitulo{
     position: relative;
     color: #272729;
 }
+
+.colecoes .subtitulo a{
+    text-decoration: none;
+    color: #272729;
+    transition: 0.3s;
+
+}
+
+.colecoes .subtitulo a:hover{
+    color: #424244;
+    transition: 0.3s;
+}
+
+.colecoes .subtitulo a::after {
+    content: "";
+    display: block;
+    height: 2px;
+    width: 0%;
+    background: #424244;
+    margin-top: 0px;
+    transition: 1s;
+}
+
+.colecoes .subtitulo a:hover::after {
+    width: 38%;
+}
+
 
 .colecoes .divColecao{
     display: flex;

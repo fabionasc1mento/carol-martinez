@@ -21,11 +21,6 @@
   object-fit: cover;
 }
 
-.cardColecao:hover img {
-  border-radius: 42px;
-  transition: .5s;
-}
-
 .cardColecao>* {
   grid-area: stack;
 }
