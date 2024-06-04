@@ -55,6 +55,9 @@
     .imgCarolAbsolute{
         display: none;
     }
+    .introducao{
+        padding-bottom: 20px;
+        }
 }
 
 @media (max-width: 1000px) {
