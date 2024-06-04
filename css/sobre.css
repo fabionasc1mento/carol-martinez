@@ -33,7 +33,7 @@
 @media (max-width: 800px) {
     .sobre-container {
         grid-template-columns: 1fr;
-        padding: 10px 20px;
+        padding: 30px 20px;
     }
 
     .sobre-texto {
